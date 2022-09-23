@@ -1,17 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T08:58:35.587Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="864HgEiYZooG-eZ5alvq" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-23T09:06:12.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="6uWjykgTonopatFMZs04" version="20.3.3" type="github">
   <diagram id="BRKkVApgqMAIR17L1OwG" name="第 1 页">
     <mxGraphModel dx="1303" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="w9h7YLfQHpDM6UQTDiz0-1" value="埋点用户行为数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="525" width="120" height="60" as="geometry" />
+        <mxCell id="w9h7YLfQHpDM6UQTDiz0-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=22;fontColor=default;strokeWidth=4;" edge="1" parent="1" source="w9h7YLfQHpDM6UQTDiz0-1" target="w9h7YLfQHpDM6UQTDiz0-7">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w9h7YLfQHpDM6UQTDiz0-2" value="业务交互数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="525" width="120" height="60" as="geometry" />
+        <mxCell id="w9h7YLfQHpDM6UQTDiz0-1" value="埋点用户行为数据（日志文件）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="241" y="535" width="240" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="w9h7YLfQHpDM6UQTDiz0-3" value="数据源" style="label;whiteSpace=wrap;html=1;image=img/clipart/Gear_128x128.png" vertex="1" parent="1">
-          <mxGeometry x="10" y="525" width="140" height="60" as="geometry" />
+        <mxCell id="w9h7YLfQHpDM6UQTDiz0-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=4;fontSize=22;fontColor=default;" edge="1" parent="1" source="w9h7YLfQHpDM6UQTDiz0-2" target="w9h7YLfQHpDM6UQTDiz0-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w9h7YLfQHpDM6UQTDiz0-2" value="业务交互数据(数据库)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="535" width="250" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="w9h7YLfQHpDM6UQTDiz0-5" value="数据来源" style="text;strokeColor=#b85450;fillColor=#f8cecc;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;shadow=0;glass=0;sketch=0;labelBorderColor=none;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="535" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w9h7YLfQHpDM6UQTDiz0-6" value="数据传输层" style="text;strokeColor=#b85450;fillColor=#f8cecc;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="30" y="430" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w9h7YLfQHpDM6UQTDiz0-7" value="Flume" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="241" y="432.5" width="240" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="w9h7YLfQHpDM6UQTDiz0-8" value="Sqoop" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="430" width="240" height="35" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
